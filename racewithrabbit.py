@@ -15,13 +15,13 @@ def get_bunny_speed():
     while True:
         choice = input("Enter 1, 2, or 3: ").strip()
         if choice == "1":
-            return 1.0
+            return 2.0
         elif choice == "2":
-            return 0.5
+            return 1.5
         elif choice == "3":
-            return 0.25
+            return 0.5
         else:
-            print("Invalid choice. Try again.")
+            print("Please type choose from 3 modes")
 
 def bunny_runner(bunny_speed):
     global bunny_steps, game_over
